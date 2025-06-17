@@ -1,0 +1,83 @@
+/* Button container layout */
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+/* Main button style */
+.bg-image-btn {
+  position: relative;
+  width: 140px;
+  height: 60px;
+  border: 5px solid white;
+  border-radius: 12px;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+/* Background image layer via CSS variable */
+.bg-image-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--bg-url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 0;
+}
+
+/* Button text layer */
+.bg-image-btn span {
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover effects */
+.bg-image-btn:hover::before {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.bg-image-btn:hover span {
+  opacity: 0;
+}
+
+/* Text under image */
+.small-text {
+  font-size: 14px;
+  color: #444;
+  margin-top: 6px;
+  max-width: 300px;
+}
+
+/* Make image responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive layout (optional for small devices) */
+@media (max-width: 480px) {
+  .bg-image-btn {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .small-text {
+    font-size: 13px;
+  }
+}
