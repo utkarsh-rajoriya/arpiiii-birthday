@@ -99,10 +99,10 @@ const BootstrapLoveCard = () => {
           <div className="letter-content">
             <p className="letter-greeting">My Beloved,</p>
             <p className="small-text bold">
-              तू अगर बोल दे "पिज्जा लाओ"...<br/>
-               बिना सवाल किए चल पड़ूंगा! 🍕<br/>
-              स तू बोल "आई लव यू",<br/>
-               दिल ही दे दूँगा — डिलीवरी फ्री है! 😂💘
+              तू आँखों से इशारा कर दे,<br/>
+              मैं सारी दुनिया भुला दूँ! 😎<br/>
+              तेरे साथ Netflix नहीं,<br/>
+              तेरी बातों में ही रातें गुज़ार दूँ! 📺💬❤️
             </p>
             <hr/>
             <p className="small-text">
@@ -188,22 +188,17 @@ const BootstrapLoveCard = () => {
               <div className="full-letter-content">
                 <p className="full-greeting">Dearest Aerika💖,</p>
                 <p>
-                  In the garden of my soul, you are the most beautiful flower
-                  that has ever bloomed. Every petal of your being brings color
-                  to my world, and every breath you take makes my heart dance
-                  with joy.
+                  In the garden of my soul, you are the most beautiful flower🌸
+                  that has ever bloomed✨. Every petal of your being brings color🌈
+                  to my world, and every breath you take makes my heart dance💞
+                  with joy💗.
                 </p>
                 <p>
-                  Your laughter is the melody that plays in my dreams, and your
-                  smile is the sunrise that brightens my darkest days. With you,
-                  I have discovered what it means to love truly, deeply, and
-                  completely.
+                  Your laughter ●'◡'● is the melody that plays in my dreams🫠, and your
+                  smile is the sunrise🌤️ that brightens my darkest days⛈️.
                 </p>
                 <p>
-                  I dream of morning coffees where we share our sleepy thoughts,
-                  of evening walks under starlit skies, and of quiet Sunday
-                  afternoons where time stands still just for us. You are my
-                  adventure, my peace, and my home.
+                 🫶🏻Thanq you teaching my how to love 💚and how real love looks like🧿 ..there are some conflicts but these are the part of a real love to understand eachother💖..feel pleasure eachother🫂 and took a commitment not to leave each other..even in hartest time ...each hard time and conflict makes me increase more loving and engaging along uuhhh❤‍🔥`
                 </p>
 
                 <div className="text-center my-4">

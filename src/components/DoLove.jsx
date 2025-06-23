@@ -18,7 +18,7 @@ export default function DoLove() {
     },
     {
       text: "Soch le aache se!",
-      smalltext: "itni jaldi mt bole 🙂",
+      smalltext: "itni jaldi mt bole 🥲",
     },
     {
       text: "Ek or baar soch le aache se 😫",
